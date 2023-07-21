@@ -9,11 +9,25 @@
     <meta name="author" content="Zeebra Shop SE">
     <title>Zeebra Shop SE</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="javascript" href="./script.js"
     <link rel="icon" href="zebralogotransparent.png" type="image/x-icon">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1346711395216626"
      crossorigin="anonymous"></script>
+     
 </head>
   <body>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#story">Story</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div id="home">
+    </div>
+
     <img class="logo" src="zebralogotransparent.png" alt="Zeebra" srcset="zebralogotransparent.png?v=1669326699&amp;width=400 400w, zebralogotransparent.png?v=1669326699&amp;width=500 500w" width="200" height="200.0">
 
    <main>
@@ -62,15 +76,35 @@
         </script>
         <br>
         <iframe id="fitPrintIframe" frameborder="0" scrolling="no" src="https://shop.fitprint.io/v2.html?shop=d0425140-9b39-45d8-8ff8-eff0a1b9682b" width="100%" onload="iFrameResize({ log: false, checkOrigin: false, heightCalculationMethod: 'grow', autoResize: false, onMessage: function(messageData) {var jsonData = JSON.parse(messageData.message);if (jsonData.action == 'navigateTo') {window.onbeforeunload = null;window.parent.location.href= jsonData.data;}if (jsonData.action == 'scrollTo') {setTimeout(function () {document.getElementById('fitPrintAnchor').scrollIntoView({behavior: 'smooth', block: 'center'});},200);}},onInit: function(iframe) { $(document).ready(function () { $(window).on('scroll', () => { const scrollFromTop = $(document).scrollTop(); var fitPrintIframe = $('#fitPrintIframe'); var offset = fitPrintIframe.offset(); if (scrollFromTop > offset.top + 10) { iframe.iFrameResizer.sendMessage(scrollFromTop - (offset.top - 10)); }if (scrollFromTop == 0 ) { iframe.iFrameResizer.sendMessage(scrollFromTop); }  }); }); }}, '#fitPrintIframe');"></iframe>
+        <br>
         <style>
           iframe {
             width: 1px; min-width: 100%;
           }
         </style>
         </div>
-      </div>
+      </div >
+      
+        <div id="about">
+          <h2>About Us</h2>
+          We are a clothing brand that mostly sells t-shirt and hodies. The owner of Zeebra Shop SE is Charles and he is only 13. And the only one at Zeebra Shop SE. But Zeebra Shop SE is very automated for
+          example the clothes is printed onle when they are ordered (Print on demand).
+        </div>
+      
+        <div id="story">
+          <h2>Story</h2>
+          <p>Zeebra Shop SE was started in july. <br> The website wasent built yet but they had a store on etsy. But after a while they desidet to do a website and sell their clothes there instead. <br>
+            On a website you can have everyting and customiste very much.</p>
+        </div>
+
+        <div id="contact">
+          <h2>Contact Us</h2>
+          <p>Mail:</p><a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqbzbTshNgDQPWrJJsWLVKKltjrrXkmwvxqdVNrfcmNJpmSHKSMdSXCSqqdrPgqcPtwNWg" target="_blank">zeebrashopse@gmail.com</a>
+          <p>Follow our instagram:</p> <a href="https://www.instagram.com/zeebrashopse/" target="_blank">Zeebra Shop SE</a>
+        </div>
 
       <footer>
+        
         <p>&copy; 2023 Zeebra Shop SE. All rights reserved.</p>
       </footer>
 
